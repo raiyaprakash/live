@@ -11,9 +11,9 @@
 <button type="button" onclick="gernatescript()">Gernate</button>
 <button type="button" onclick="gernatescriptcopy()">Copy</button>
 
-<button><input type="radio" id="unbold" name="encode" style="margin:0 4px;"/> Un Bold</button>
+<button><input type="radio" id="unbold" name="encode" checked="" style="margin:0 4px;"/> Un Bold</button>
 
-<button><input type="radio" id="boldchange" name="encode" checked="" style="margin:0 4px;"/> Bold</button>
+<button><input type="radio" id="boldchange" name="encode" style="margin:0 4px;"/> Bold</button>
 <script>
 function gernatescript() {
     for (var e = [], u = document.getElementById("smessage").value.split("\n"), l = 0; l < u.length; l++) {
